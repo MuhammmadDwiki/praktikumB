@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background-image: url(https://www.astronauts.id/blog/wp-content/uploads/2022/08/Rekomendasi-Mainan-untuk-Bantu-Tumbuh-Kembang-Anak.jpg);
+}
+
+.dash-main h1, p {
+   background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+th {
+    background-color:gray;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.action {
+    text-align: center;
+}
+
+.add-btn {
+    background-color: #ddd;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.edit-btn, .delete-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.delete-btn:hover {
+    background-color: red;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}

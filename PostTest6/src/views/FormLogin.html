@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/stylelog.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box form-box">
+            <header>Login</header>
+            <a href="../views/WebMainan.html"> Back To Menu</a>
+            <form action="../php/hasil.php" method="post">
+                <div class="field input">
+                    <label for="username">username</label>
+                    <input type="text" name="username" id="username" autocomplete="off" required>
+                </div>
+
+                <div class="field input">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" autocomplete="off" required>
+                </div>
+
+                <div class="field">
+                    <input type="submit" class="btn" name="submit" value="Login" required>
+                </div>
+
+                <div class="links">
+                    Don't have account? <a href="../views/register.html">Sign Up Now</a>
+                </div>
+
+                <div class="links">
+                    Login For Admin <a href="../views/LoginAdmin.html">Login Admin</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
